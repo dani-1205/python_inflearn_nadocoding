@@ -1,3 +1,4 @@
+# 변수
 animal = "강아지"
 name = "초코"
 age = 2
