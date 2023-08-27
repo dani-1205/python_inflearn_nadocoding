@@ -280,7 +280,8 @@ class Marine(AttackUnit):
     def stimpack(self):
         if self.hp > 10:
            self.hp -= 10
-           print("{0} : 스팀팩을 사용합니다. (HP 10 감소)".format(self.name))
+           print("{0} : 스팀팩을 사용합니다. [체력 10 감소]".format(self.name))
+        #    print("{0} : 스팀팩을 사용합니다. (HP 10 감소)".format(self.name))
         else:
             print("{0} : 체력이 부족하여 스팀팩을 사용하지 않습니다.".format(self.name))
 
